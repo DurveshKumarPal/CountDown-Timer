@@ -1,0 +1,45 @@
+
+
+
+body{
+    
+    background-image:url(wallpaper.jpg) ;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Patrick Hand SC', cursive;
+    font-family: 'Sacramento', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    text-align: center;
+    color: rgb(237, 209, 172);
+    
+}
+.countdown-container{
+    display: flex;
+    color: ghostwhite;
+}
+.big-text
+{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el span{
+    font-size: 1.3rem;
+  
+}
+.countdown-el{
+    font-size: 1.5rem; 
+}
+p{
+    text-align: center;
+
+}
