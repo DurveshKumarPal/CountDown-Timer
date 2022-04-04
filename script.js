@@ -11,20 +11,20 @@ function countdown()
 
     const totalsecond = (newYearDate - currentDate)/1000;
 
-    const days = math.floor(totalsecond/3600/24);
-    const hours = math.floor(totalsecond/3600)%24;
-    const mins= math.floor(totalsecond/60)%60;
-    const second = math.floor(totalsecond)%60;
+    const days = Math.floor(totalsecond/3600/24);
+    const hours = Math.floor(totalsecond/3600)%24;
+    const mins= Math.floor(totalsecond/60)%60;
+    const second = Math.floor(totalsecond)%60;
 
     daysEl.innerHTML = days;
-    daysEl.innerHTML = formatTime(hours);
-    daysEl.innerHTML = formatTime(mins);
-    daysEl.innerHTML = formatTime(second);
+    hoursEl.innerHTML = formatTime(hours);
+    minsEl.innerHTML = formatTime(mins);
+    secondEl.innerHTML = formatTime(second);
 
 }
 function formatTime(time)
 {
-    return time<10 ? '0${time}':time;
+    return (time < 10) ? `0${time}` : time;
 }
 
 countdown();
